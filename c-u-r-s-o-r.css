@@ -1,0 +1,16 @@
+.property-1invisible-icon {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  width: 0;
+  height: 21px;
+}
+.cursor {
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  border: 1px dashed #9747ff;
+  box-sizing: border-box;
+  height: 95px;
+  overflow: hidden;
+}

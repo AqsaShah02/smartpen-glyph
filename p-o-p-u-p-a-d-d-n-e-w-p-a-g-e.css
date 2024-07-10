@@ -1,0 +1,17 @@
+.add-new-page {
+  position: absolute;
+  top: 18px;
+  left: 21px;
+}
+.pop-up-add-new-page {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-mini);
+  background: linear-gradient(180deg, #fff, #591a99 81.68%);
+  height: 64px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--extra-bold-10);
+}

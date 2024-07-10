@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./c-h-o-o-s-e-t-e-m-p-l-a-t-e-s.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Serif:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Post No Bills Jaffna ExtraBold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="choose-templates">
+      <div class="header">
+        <div class="left-items">
+          <div class="default-input">
+            <div class="label">
+              <b class="label1">Label</b>
+              <div class="spacer"></div>
+              <b class="optional">Optional</b>
+            </div>
+            <div class="content1">
+              <div class="left">
+                <img class="icon" alt="" src="./public/icon.svg" />
+
+                <b class="text">Search notes</b>
+              </div>
+              <div class="spacer1"></div>
+              <img class="icon1" alt="" src="./public/icon1.svg" />
+            </div>
+            <b class="helper-text">Helper Text</b>
+          </div>
+          <img
+            class="keyboard-voice-icon"
+            alt=""
+            src="./public/keyboard-voice.svg"
+          />
+        </div>
+        <div class="menu2">
+          <b class="home3">Home</b>
+          <b class="dashboard1" id="popupdashboardText">Dashboard</b>
+          <b class="ocr" id="popupoCRText">OCR</b>
+          <b class="saved-notes" id="popupsavedNotesText">Saved Notes </b>
+        </div>
+        <img
+          class="header-child"
+          alt=""
+          src="./public/artboard-31.svg"
+          id="popupartboardIcon"
+        />
+      </div>
+      <div class="right-items"></div>
+      <img
+        class="notifications-none-icon"
+        alt=""
+        src="./public/notifications-none.svg"
+      />
+
+      <img class="menu-open-icon" alt="" src="./public/menu-open.svg" />
+    </div>
+
+    <script>
+      var popupdashboardText = document.getElementById("popupdashboardText");
+      if (popupdashboardText) {
+        popupdashboardText.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+      
+      var popupoCRText = document.getElementById("popupoCRText");
+      if (popupoCRText) {
+        popupoCRText.addEventListener("click", function (e) {
+          window.location.href = "./o-c-r-p-a-g-e.html";
+        });
+      }
+      
+      var popupsavedNotesText = document.getElementById("popupsavedNotesText");
+      if (popupsavedNotesText) {
+        popupsavedNotesText.addEventListener("click", function (e) {
+          window.location.href = "./s-a-v-e-d-n-o-t-e-s.html";
+        });
+      }
+      
+      var popupartboardIcon = document.getElementById("popupartboardIcon");
+      if (popupartboardIcon) {
+        popupartboardIcon.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

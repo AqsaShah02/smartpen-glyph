@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./s-u-p-p-o-r-t.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Serif:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Post No Bills Jaffna ExtraBold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="support1">
+      <div class="glyph1">Glyph</div>
+      <div class="menu1">
+        <div class="home2">Home</div>
+        <div class="support2" id="supportText">support</div>
+        <div class="about-us1" id="aboutUsText">About us</div>
+      </div>
+      <div class="support-inner">
+        <div class="vector-group">
+          <img class="group-child13" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in7">sign in</div>
+          <img class="group-child14" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in8">sign in</div>
+          <img class="group-child15" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in9">sign in</div>
+          <img class="group-child16" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in10">sign in</div>
+          <img class="group-child17" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in11">sign in</div>
+          <img class="group-child18" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in12">sign in</div>
+          <img class="group-child19" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="sign-in13">sign in</div>
+          <img class="group-child20" alt="" src="./public/rectangle-1.svg" />
+
+          <div class="login1" id="loginText">Login</div>
+        </div>
+      </div>
+      <div class="support-child"></div>
+    </div>
+
+    <div id="supportPopUpContainer" class="popup-overlay" style="display: none">
+      <div class="support-pop-up">
+        <div class="dropdown">
+          <div class="button1">
+            <div class="label4">get help.......</div>
+            <img class="icon4" alt="" src="./public/icon2.svg" id="popupicon" />
+          </div>
+          <div class="list-of-items">
+            <div class="dropdown-option-item">
+              <div class="menu-item-label">write email</div>
+            </div>
+            <div class="dropdown-option-item1">
+              <div class="menu-item-label1">technical support</div>
+            </div>
+            <div class="dropdown-option-item2">
+              <div class="menu-item-label2">contact us</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupicon = document.getElementById("popupicon");
+      if (popupicon) {
+        popupicon.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var supportText = document.getElementById("supportText");
+      if (supportText) {
+        supportText.addEventListener("click", function () {
+          var popup = document.getElementById("supportPopUpContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href = "./a-b-o-u-t-u-s-b-u-y-n-o-w.html";
+        });
+      }
+      
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

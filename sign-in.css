@@ -1,0 +1,264 @@
+.background-image-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 832px;
+  height: 1092px;
+  object-fit: contain;
+}
+.fade {
+  position: absolute;
+  top: 1058px;
+  left: 1629px;
+  background: linear-gradient(180deg, #160430, transparent);
+  width: 1445px;
+  height: 134px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.background {
+  position: absolute;
+  top: -34px;
+  left: -175px;
+  width: 1629px;
+  height: 1092px;
+}
+.continue-with,
+.or-continue-with {
+  position: absolute;
+  width: 231.8px;
+  height: 22.8px;
+}
+.or-continue-with {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.continue-with {
+  top: 562.7px;
+  left: 827.2px;
+  font-size: var(--font-size-smi-5);
+  color: var(--color-silver);
+}
+.terms-and-conditions {
+  color: #9d5ce9;
+}
+.by-registering-you-container,
+.terms {
+  position: absolute;
+  width: 397.6px;
+  height: 27.6px;
+}
+.by-registering-you-container {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.terms {
+  top: 929.4px;
+  left: 771px;
+  font-size: var(--font-size-smi-5);
+  color: var(--color-silver);
+}
+.card-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 54.2px;
+}
+.facebook,
+.frame-item {
+  width: 22.6px;
+  position: relative;
+  height: 22.6px;
+}
+.facebook {
+  width: 75.2px;
+  font-weight: 600;
+  display: inline-block;
+  height: 18.5px;
+  flex-shrink: 0;
+}
+.group-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.buttons-inner {
+  position: absolute;
+  top: 13.5px;
+  left: 56.9px;
+  width: 107.8px;
+  height: 22.6px;
+}
+.buttons,
+.card-icon1 {
+  position: absolute;
+  top: 604.8px;
+  left: 1053.7px;
+  width: 218px;
+  height: 54.2px;
+}
+.card-icon1 {
+  top: 0;
+  left: 0;
+}
+.frame-inner {
+  width: 18.8px;
+  position: relative;
+  height: 20px;
+}
+.google {
+  position: relative;
+  font-weight: 600;
+}
+.group-parent1 {
+  position: absolute;
+  top: 15.1px;
+  left: 59.3px;
+  width: 100.3px;
+  height: 23.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12.5px;
+}
+.buttons1,
+.input-icon {
+  position: absolute;
+  top: 604.8px;
+  left: 827.2px;
+  width: 218px;
+  height: 54.2px;
+}
+.input-icon {
+  top: 0;
+  left: 0;
+  width: 449px;
+  height: 61.3px;
+}
+.enter-your-email {
+  position: absolute;
+  top: 16.6px;
+  left: 11.3px;
+  font-weight: 500;
+  display: inline-block;
+  width: 398.1px;
+  height: 28.8px;
+}
+.email-input {
+  position: absolute;
+  top: 225px;
+  left: 827px;
+  width: 449px;
+  height: 61.3px;
+  color: var(--color-dimgray);
+}
+.signup-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 18.8px;
+  background: linear-gradient(90.04deg, #501794, #3e70a1);
+  width: 137.8px;
+  height: 51.2px;
+}
+.sign-up1 {
+  position: absolute;
+  top: 12px;
+  left: 36px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80.5px;
+  height: 28.2px;
+  cursor: pointer;
+}
+.signup-button {
+  position: absolute;
+  top: 447px;
+  left: 995px;
+  width: 137.8px;
+  height: 51.2px;
+  font-size: var(--font-size-xl);
+}
+.seperator-icon {
+  position: absolute;
+  top: 522px;
+  left: 827px;
+  max-height: 100%;
+  width: 445px;
+}
+.subtitle {
+  position: absolute;
+  top: 198px;
+  left: 829px;
+  display: inline-block;
+  color: var(--color-maroon);
+  width: 289px;
+  height: 27px;
+}
+.input-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 449px;
+  height: 61.3px;
+}
+.enter-something-you {
+  position: absolute;
+  top: 15.7px;
+  left: 15.8px;
+  font-weight: 500;
+  display: inline-block;
+  width: 398.1px;
+  height: 28.8px;
+}
+.email-input1 {
+  position: absolute;
+  top: 362.5px;
+  left: 827px;
+  width: 449px;
+  height: 61.3px;
+  color: var(--color-dimgray);
+}
+.subtitle1,
+.title {
+  position: absolute;
+  display: inline-block;
+}
+.subtitle1 {
+  top: 330px;
+  left: 831px;
+  color: var(--color-maroon);
+  width: 338px;
+  height: 28px;
+}
+.title {
+  top: 71px;
+  left: 943px;
+  font-size: 60px;
+  color: #34067f;
+  width: 390px;
+  height: 141px;
+}
+.sign-in14 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}

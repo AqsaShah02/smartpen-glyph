@@ -1,0 +1,7 @@
+.soon-to-come {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  height: 1024px;
+  overflow: hidden;
+}

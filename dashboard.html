@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Serif:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Post No Bills Jaffna ExtraBold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dashboard2">
+      <div class="header1">
+        <div class="left-items1">
+          <div class="default-input1">
+            <div class="label2">
+              <b class="label3">Label</b>
+              <div class="spacer2"></div>
+              <b class="optional1">Optional</b>
+            </div>
+            <div class="content2">
+              <div class="left1">
+                <img class="icon2" alt="" src="./public/icon.svg" />
+
+                <b class="text1">Search notes</b>
+              </div>
+              <div class="spacer3"></div>
+              <img class="icon3" alt="" src="./public/icon1.svg" />
+            </div>
+            <b class="helper-text1">Helper Text</b>
+          </div>
+          <img
+            class="keyboard-voice-icon1"
+            alt=""
+            src="./public/keyboard-voice.svg"
+          />
+        </div>
+        <div class="menu3">
+          <b class="dashboard3">Dashboard</b>
+          <b class="ocr1" id="popupoCRText">OCR</b>
+          <b class="saved-notes1" id="popupsavedNotesText">
+            <span>Saved Notes</span>
+            <span class="span1"> </span>
+          </b>
+        </div>
+        <img
+          class="header-item"
+          alt=""
+          src="./public/artboard-31.svg"
+          id="popupartboardIcon"
+        />
+      </div>
+      <div class="right-items1"></div>
+      <img
+        class="notifications-none-icon1"
+        alt=""
+        src="./public/notifications-none.svg"
+      />
+
+      <img class="menu-open-icon1" alt="" src="./public/menu-open.svg" />
+
+      <div class="frame-parent">
+        <div class="frame-group">
+          <div class="frame-container">
+            <div class="welcome-tech-human-wrapper">
+              <b class="welcome-tech">WELCOME , Tech Human ! </b>
+            </div>
+            <div class="a-world-where-your-creativity-wrapper">
+              <div class="a-world-where">
+                A World where your creativity and mind will be captured and
+                stored gracefully with the futuristic GADGET Glyph 1.o in your
+                hand !
+              </div>
+            </div>
+            <div class="instance-wrapper">
+              <div class="account-purchase-parent">
+                <div class="account-purchase" id="popupaccountPurchaseText">
+                  START WRITING HERE
+                </div>
+                <img
+                  class="vuesaxbulkflash-icon"
+                  alt=""
+                  src="./public/vuesaxbulkflash.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="wrapper-group-11-wrapper">
+            <div class="wrapper-group-11">
+              <img
+                class="wrapper-group-11-child"
+                alt=""
+                src="./public/group-11.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="frame-div">
+          <div class="instance-container">
+            <div class="see-info-wrapper" id="popupframeContainer">
+              <div class="see-info">CONVERT</div>
+            </div>
+          </div>
+          <div class="frame-child"></div>
+          <div class="computerized-text-conversion">
+            Computerized Text Conversion
+          </div>
+        </div>
+        <div class="frame-parent1">
+          <div class="instance-frame">
+            <div class="see-info-container">
+              <div class="see-info1">START</div>
+            </div>
+          </div>
+          <div class="speech-to-text">Speech To Text Conversion</div>
+        </div>
+        <div class="frame-parent2">
+          <div class="instance-wrapper1">
+            <div class="see-info-frame">
+              <div class="see-info2">KNOW MORE</div>
+            </div>
+          </div>
+          <div class="the-stylus-mode">The Stylus Mode</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupoCRText = document.getElementById("popupoCRText");
+      if (popupoCRText) {
+        popupoCRText.addEventListener("click", function (e) {
+          window.location.href = "./o-c-r-p-a-g-e.html";
+        });
+      }
+      
+      var popupsavedNotesText = document.getElementById("popupsavedNotesText");
+      if (popupsavedNotesText) {
+        popupsavedNotesText.addEventListener("click", function (e) {
+          window.location.href = "./s-a-v-e-d-n-o-t-e-s.html";
+        });
+      }
+      
+      var popupartboardIcon = document.getElementById("popupartboardIcon");
+      if (popupartboardIcon) {
+        popupartboardIcon.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      
+      var popupaccountPurchaseText = document.getElementById(
+        "popupaccountPurchaseText"
+      );
+      if (popupaccountPurchaseText) {
+        popupaccountPurchaseText.addEventListener("click", function (e) {
+          window.location.href = "./r-e-a-l-t-i-m-e-d-a-t-a-p-a-g-e.html";
+        });
+      }
+      
+      var popupframeContainer = document.getElementById("popupframeContainer");
+      if (popupframeContainer) {
+        popupframeContainer.addEventListener("click", function (e) {
+          window.location.href = "./o-c-r-p-a-g-e.html";
+        });
+      }
+      </script>
+  </body>
+</html>

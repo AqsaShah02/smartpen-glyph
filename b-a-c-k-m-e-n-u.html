@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./b-a-c-k-m-e-n-u.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Serif:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Post No Bills Jaffna ExtraBold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="back-menu">
+      <div class="dropdown1">
+        <div class="button2">
+          <div class="label17">BACK</div>
+          <img class="icon17" alt="" src="./public/icon2.svg" id="icon" />
+        </div>
+        <div class="list-of-items1">
+          <div class="dropdown-option-item9">
+            <div class="menu-item-label9">DASHBOARD</div>
+          </div>
+          <div class="dropdown-option-item10">
+            <div class="menu-item-label10">TEMPLATES</div>
+          </div>
+          <div class="dropdown-option-item11">
+            <div class="menu-item-label11" id="menuItemLabel">SAVED NOTES</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var icon = document.getElementById("icon");
+      if (icon) {
+        icon.addEventListener("click", function (e) {
+          window.location.href = "./r-e-a-l-t-i-m-e-d-a-t-a-p-a-g-e.html";
+        });
+      }
+      
+      var menuItemLabel = document.getElementById("menuItemLabel");
+      if (menuItemLabel) {
+        menuItemLabel.addEventListener("click", function (e) {
+          window.location.href = "./s-a-v-e-d-n-o-t-e-s.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.no-new-notification {
+  position: absolute;
+  top: 18px;
+  left: 21px;
+  display: inline-block;
+  width: 254px;
+  height: 46px;
+}
+.pop-up-notification {
+  width: 295px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background: linear-gradient(180deg, #fff, #591a99 81.68%);
+  height: 64px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--extra-bold-10);
+}

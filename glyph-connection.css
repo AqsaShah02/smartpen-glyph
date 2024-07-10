@@ -1,0 +1,61 @@
+.see-info5 {
+  position: relative;
+  cursor: pointer;
+}
+.instance-wrapper3,
+.see-info-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.see-info-wrapper3 {
+  border-radius: 19.78px;
+  background-color: var(--color-darkslateblue-400);
+  height: 50px;
+  padding: var(--padding-smi-4);
+  box-sizing: border-box;
+}
+.instance-wrapper3 {
+  position: absolute;
+  top: 105px;
+  left: 429px;
+  width: 146px;
+  height: 66px;
+}
+.click-to-connect {
+  position: absolute;
+  top: 51px;
+  left: 350px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-prosto-one);
+  color: var(--color-darkblue);
+  display: inline-block;
+  width: 546px;
+  height: 35px;
+}
+.frame-parent9 {
+  position: absolute;
+  top: 181px;
+  left: -179px;
+  box-shadow: 9.7px 11.7px 77.69px rgba(84, 135, 183, 0.08);
+  border-radius: 24.72px;
+  background-color: var(--color-whitesmoke-100);
+  width: 858px;
+  height: 171px;
+  overflow: hidden;
+}
+.glyph-connection {
+  width: 600px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-lightpink);
+  height: 560px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-lgi-8);
+  color: var(--color-lightpink);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,18 @@
+.vector-icon3 {
+  position: absolute;
+  height: 83.33%;
+  width: 83.33%;
+  top: 8.33%;
+  right: 8.33%;
+  bottom: 8.33%;
+  left: 8.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.help3 {
+  width: 100%;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+}

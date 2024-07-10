@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dsahboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Serif:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Post No Bills Jaffna ExtraBold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dsahboard">
+      <div class="header10">
+        <div class="left-items10">
+          <div class="default-input10">
+            <div class="label22">
+              <b class="label23">Label</b>
+              <div class="spacer20"></div>
+              <b class="optional10">Optional</b>
+            </div>
+            <div class="content12">
+              <div class="left19">
+                <img class="icon22" alt="" src="./public/icon.svg" />
+
+                <b class="text10">Search notes</b>
+              </div>
+              <div class="spacer21"></div>
+              <img class="icon23" alt="" src="./public/icon1.svg" />
+            </div>
+            <b class="helper-text10">Helper Text</b>
+          </div>
+          <img
+            class="keyboard-voice-icon10"
+            alt=""
+            src="./public/keyboard-voice.svg"
+          />
+        </div>
+        <div class="menu13">
+          <b class="dashboard12">Dashboard</b>
+          <b class="ocr10" id="oCRText">OCR</b>
+          <b class="saved-notes11" id="savedNotesText">
+            <span>Saved Notes</span>
+            <span class="span2"> </span>
+          </b>
+        </div>
+        <img
+          class="header-child2"
+          alt=""
+          src="./public/artboard-311.svg"
+          id="artboardIcon"
+        />
+      </div>
+      <div class="right-items10"></div>
+      <img
+        class="notifications-none-icon10"
+        alt=""
+        src="./public/notifications-none1.svg"
+        id="notificationsNoneIcon"
+      />
+
+      <img
+        class="menu-open-icon11"
+        alt=""
+        src="./public/menu-open1.svg"
+        id="menuOpen"
+      />
+
+      <div class="frame-parent10">
+        <div class="frame-parent11">
+          <div class="frame-parent12">
+            <div class="welcome-tech-human-container">
+              <b class="welcome-tech1">WELCOME , Tech Human ! </b>
+            </div>
+            <div class="a-world-where-your-creativity-container">
+              <div class="a-world-where1">
+                A World where your creativity and mind will be captured and
+                stored gracefully with the futuristic GADGET Glyph 1.o in your
+                hand !
+              </div>
+            </div>
+            <div class="instance-wrapper4">
+              <div class="account-purchase-group">
+                <div class="account-purchase1" id="accountPurchaseText">
+                  START WRITING HERE
+                </div>
+                <img
+                  class="vuesaxbulkflash-icon1"
+                  alt=""
+                  src="./public/vuesaxbulkflash.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="wrapper-group-11-container">
+            <div class="wrapper-group-111">
+              <img
+                class="wrapper-group-11-item"
+                alt=""
+                src="./public/group-111.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="frame-parent13">
+          <div class="instance-wrapper5">
+            <div class="see-info-wrapper4" id="frameContainer">
+              <div class="see-info6">CONVERT</div>
+            </div>
+          </div>
+          <div class="frame-child5"></div>
+          <div class="computerized-text-conversion1">
+            Computerized Text Conversion
+          </div>
+        </div>
+        <div class="frame-parent14">
+          <div class="instance-wrapper6">
+            <div class="see-info-wrapper5">
+              <div class="see-info7">START</div>
+            </div>
+          </div>
+          <div class="speech-to-text1">Speech To Text Conversion</div>
+        </div>
+        <div class="frame-parent15">
+          <div class="instance-wrapper7">
+            <div class="see-info-wrapper6">
+              <div class="see-info8">KNOW MORE</div>
+            </div>
+          </div>
+          <div class="the-stylus-mode1">The Stylus Mode</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="pOPUPNOTIFICATION" class="popup-overlay" style="display: none">
+      <div class="pop-up-notification">
+        <b class="no-new-notification">NO NEW NOTIFICATION</b>
+      </div>
+    </div>
+
+    <div id="sidebarContainer" class="popup-overlay" style="display: none">
+      <div class="sidebar">
+        <div class="content3">
+          <div class="user">
+            <div class="left2">
+              <div class="avatar">
+                <img class="avatar-icon" alt="" src="./public/avatar@2x.png" />
+
+                <div class="story"></div>
+                <img class="progress-icon" alt="" src="./public/progress.svg" />
+
+                <div class="status-online"></div>
+              </div>
+              <div class="tech-human-parent">
+                <img
+                  class="tech-human-icon"
+                  alt=""
+                  src="./public/tech-human.svg"
+                />
+
+                <img
+                  class="abcdgamilcom-icon"
+                  alt=""
+                  src="./public/abcdgamilcom.svg"
+                />
+              </div>
+            </div>
+            <img class="menu-open-icon2" alt="" src="./public/menu-open2.svg" />
+          </div>
+          <div class="menu4">
+            <div class="items-wrapper">
+              <div class="items">
+                <div class="line">
+                  <div class="left3" id="popupleftContainer">
+                    <img class="inbox-icon" alt="" src="./public/inbox.svg" />
+
+                    <img class="notes-icon" alt="" src="./public/notes.svg" />
+                  </div>
+                  <div class="counter">
+                    <div class="badge">0</div>
+                  </div>
+                </div>
+                <div class="line1" id="popuplineContainer1">
+                  <div class="left4">
+                    <img
+                      class="drive-folder-upload-icon"
+                      alt=""
+                      src="./public/drive-folder-upload.svg"
+                    />
+
+                    <img
+                      class="saved-notes-icon"
+                      alt=""
+                      src="./public/saved-notes.svg"
+                    />
+                  </div>
+                  <div class="counter1">
+                    <div class="badge1">0</div>
+                  </div>
+                </div>
+                <div class="line2">
+                  <div class="left5">
+                    <img
+                      class="dashboard-customize-icon"
+                      alt=""
+                      src="./public/dashboard-customize.svg"
+                    />
+
+                    <img
+                      class="templates-icon"
+                      alt=""
+                      src="./public/templates.svg"
+                    />
+                  </div>
+                  <div class="counter2">
+                    <div class="badge2">10K</div>
+                  </div>
+                </div>
+                <div class="line3">
+                  <div class="left6">
+                    <img
+                      class="data-usage-icon"
+                      alt=""
+                      src="./public/data-usage.svg"
+                    />
+
+                    <img
+                      class="connect-glyph-icon"
+                      alt=""
+                      src="./public/connect-glyph.svg"
+                    />
+                  </div>
+                  <div class="counter3">
+                    <div class="badge3">2</div>
+                  </div>
+                </div>
+                <div class="line4">
+                  <div class="left7">
+                    <img
+                      class="space-dashboard-icon"
+                      alt=""
+                      src="./public/space-dashboard.svg"
+                    />
+
+                    <img class="share-icon" alt="" src="./public/share.svg" />
+                  </div>
+                  <div class="counter4">
+                    <div class="badge4">2</div>
+                  </div>
+                </div>
+                <img class="crown-icon" alt="" src="./public/crown@2x.png" />
+
+                <div class="line5">
+                  <div class="left8">
+                    <img class="tune-icon" alt="" src="./public/tune.svg" />
+
+                    <img
+                      class="settings-icon"
+                      alt=""
+                      src="./public/settings.svg"
+                    />
+                  </div>
+                  <div class="counter5">
+                    <div class="badge5">2</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line6">
+              <div class="left9">
+                <img
+                  class="access-time-icon"
+                  alt=""
+                  src="./public/access-time.svg"
+                />
+
+                <img class="updates-icon" alt="" src="./public/updates.svg" />
+              </div>
+            </div>
+            <div class="line7">
+              <div class="see-info-wrapper1" id="popupframeContainer">
+                <div class="see-info3" id="popupseeInfoText">LOG OUT</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left10"></div>
+      </div>
+    </div>
+
+    <script>
+      var popupleftContainer = document.getElementById("popupleftContainer");
+      if (popupleftContainer) {
+        popupleftContainer.addEventListener("click", function (e) {
+          window.location.href = "./r-e-a-l-t-i-m-e-d-a-t-a-p-a-g-e.html";
+        });
+      }
+      
+      var popuplineContainer1 = document.getElementById("popuplineContainer1");
+      if (popuplineContainer1) {
+        popuplineContainer1.addEventListener("click", function (e) {
+          window.location.href = "./s-a-v-e-d-n-o-t-e-s.html";
+        });
+      }
+      
+      var popupseeInfoText = document.getElementById("popupseeInfoText");
+      if (popupseeInfoText) {
+        popupseeInfoText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var popupframeContainer = document.getElementById("popupframeContainer");
+      if (popupframeContainer) {
+        popupframeContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var oCRText = document.getElementById("oCRText");
+      if (oCRText) {
+        oCRText.addEventListener("click", function (e) {
+          window.location.href = "./o-c-r-p-a-g-e.html";
+        });
+      }
+      
+      var savedNotesText = document.getElementById("savedNotesText");
+      if (savedNotesText) {
+        savedNotesText.addEventListener("click", function (e) {
+          window.location.href = "./s-a-v-e-d-n-o-t-e-s.html";
+        });
+      }
+      
+      var artboardIcon = document.getElementById("artboardIcon");
+      if (artboardIcon) {
+        artboardIcon.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      
+      var notificationsNoneIcon = document.getElementById("notificationsNoneIcon");
+      if (notificationsNoneIcon) {
+        notificationsNoneIcon.addEventListener("click", function () {
+          var popup = document.getElementById("pOPUPNOTIFICATION");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var menuOpen = document.getElementById("menuOpen");
+      if (menuOpen) {
+        menuOpen.addEventListener("click", function () {
+          var popup = document.getElementById("sidebarContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      
+      var accountPurchaseText = document.getElementById("accountPurchaseText");
+      if (accountPurchaseText) {
+        accountPurchaseText.addEventListener("click", function (e) {
+          window.location.href = "./r-e-a-l-t-i-m-e-d-a-t-a-p-a-g-e.html";
+        });
+      }
+      
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./o-c-r-p-a-g-e.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+.about-us-buy-now-child,
+.about-us-buy-now-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-plum-200);
+  width: 716px;
+  height: 902px;
+}
+.about-us-buy-now-item {
+  top: 496px;
+  left: 659px;
+  border-radius: var(--br-11xl);
+  width: 114px;
+  height: 54px;
+}
+.about-us-buy-now-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: #2d0c39;
+  width: 698px;
+  height: 887px;
+}
+.about-us-buy-now-child1 {
+  position: absolute;
+  top: 848px;
+  left: 412px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumpurple-200);
+  width: 242px;
+  height: 78px;
+}
+.buy-now2 {
+  position: absolute;
+  top: 867px;
+  left: 460px;
+  cursor: pointer;
+}
+.about-us-buy-now-child2 {
+  position: absolute;
+  top: 496px;
+  left: 1376px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-plum-200);
+  width: 114px;
+  height: 54px;
+}
+.a-gadget-that {
+  position: absolute;
+  top: 121px;
+  left: 789px;
+  font-size: 50px;
+  color: var(--color-mediumblue-100);
+  text-align: center;
+  display: inline-block;
+  width: 571px;
+  height: 168px;
+}
+.wireless-headphones {
+  margin: 0;
+}
+.windows-compatible {
+  margin: 0;
+  color: var(--color-mediumblue-100);
+}
+.wireless-headphones-windows-container {
+  position: absolute;
+  top: 835px;
+  left: 930px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-weight: 700;
+  width: 316px;
+  height: 52px;
+}
+.vector-icon17,
+.vector-icon18 {
+  position: absolute;
+  height: 2.73%;
+  width: 0.97%;
+  top: 49.71%;
+  right: 48.47%;
+  bottom: 47.56%;
+  left: 50.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon18 {
+  right: 1.18%;
+  left: 97.85%;
+  object-fit: contain;
+}
+.bluetooth,
+.glyph-1o {
+  position: absolute;
+  left: 0;
+}
+.glyph-1o {
+  top: 0;
+  line-height: 70px;
+  font-family: var(--font-post-no-bills-jaffna-extrabold);
+  display: inline-block;
+  width: 268px;
+}
+.bluetooth {
+  top: 101px;
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--color-mediumpurple-200);
+}
+.wireless-smart-pen {
+  position: absolute;
+  top: 197px;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 476px;
+}
+.rs5000- {
+  position: absolute;
+  top: 297px;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-sansation);
+}
+.glyph-1o-parent {
+  position: absolute;
+  top: 317px;
+  left: 147px;
+  width: 476px;
+  height: 331px;
+  font-size: 70px;
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+.about-us-buy-now-child3 {
+  position: absolute;
+  top: 313.9px;
+  left: 793px;
+  width: 562px;
+  height: 368px;
+  object-fit: cover;
+}
+.about-us-buy-now {
+  width: 100%;
+  position: relative;
+  box-shadow: 30px 30px 20px rgba(146, 136, 255, 0.4);
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  border: 20px solid var(--black);
+  box-sizing: border-box;
+  height: 1064px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--black);
+  font-family: var(--font-sansation);
+}

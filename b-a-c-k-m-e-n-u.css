@@ -1,0 +1,98 @@
+.label17 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.icon17 {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.button2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--hover);
+  border: 1px solid var(--stroke);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.menu-item-label9 {
+  position: relative;
+  line-height: 20px;
+}
+.dropdown-option-item9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.menu-item-label10 {
+  position: relative;
+  line-height: 20px;
+}
+.dropdown-option-item10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.menu-item-label11 {
+  position: relative;
+  line-height: 20px;
+  cursor: pointer;
+}
+.dropdown-option-item11,
+.dropdown1,
+.list-of-items1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdown-option-item11 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.dropdown1,
+.list-of-items1 {
+  border-radius: var(--br-5xs);
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.list-of-items1 {
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid var(--stroke);
+  padding: var(--padding-5xs) 0;
+  color: var(--black);
+}
+.dropdown1 {
+  position: absolute;
+  top: 14px;
+  left: 19px;
+  width: 160px;
+  height: 255px;
+}
+.back-menu {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--white);
+  height: 211px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--primary);
+  font-family: var(--font-fira-sans);
+}

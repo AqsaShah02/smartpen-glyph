@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./o-c-r-p-a-g-e.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto Serif:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,400;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Post No Bills Jaffna ExtraBold:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ocr-page">
+      <div class="header8">
+        <div class="left-items8">
+          <div class="default-input8">
+            <div class="label18">
+              <b class="label19">Label</b>
+              <div class="spacer16"></div>
+              <b class="optional8">Optional</b>
+            </div>
+            <div class="content10">
+              <div class="left17">
+                <img class="icon18" alt="" src="./public/icon.svg" />
+
+                <b class="text8">Search notes</b>
+              </div>
+              <div class="spacer17"></div>
+              <img class="icon19" alt="" src="./public/icon1.svg" />
+            </div>
+            <b class="helper-text8">Helper Text</b>
+          </div>
+          <img
+            class="keyboard-voice-icon8"
+            alt=""
+            src="./public/keyboard-voice.svg"
+          />
+        </div>
+        <div class="menu11">
+      
+          <b class="dashboard10" id="dashboardText">Dashboard</b>
+          <b class="ocr8">OCR</b>
+          <b class="saved-notes8" id="savedNotesText">Saved Notes </b>
+        </div>
+        <img
+          class="header-inner"
+          alt=""
+          src="./public/artboard-31.svg"
+          id="artboardIcon"
+        />
+      </div>
+      <div class="right-items8"></div>
+      <img
+        class="notifications-none-icon8"
+        alt=""
+        src="./public/notifications-none.svg"
+      />
+
+      <img class="menu-open-icon9" alt="" src="./public/menu-open.svg" />
+
+      <div class="frame-parent6">
+        <div class="instance-wrapper2">
+          <div class="see-info-wrapper2">
+            <div class="see-info4">convert</div>
+          </div>
+        </div>
+        <div class="click-to-translate">Click to Translate</div>
+      </div>
+    </div>
+
+    <script>
+      var dashboardText = document.getElementById("dashboardText");
+      if (dashboardText) {
+        dashboardText.addEventListener("click", function (e) {
+          window.location.href = "./dsahboard.html";
+        });
+      }
+      
+      var savedNotesText = document.getElementById("savedNotesText");
+      if (savedNotesText) {
+        savedNotesText.addEventListener("click", function (e) {
+          window.location.href = "./s-a-v-e-d-n-o-t-e-s.html";
+        });
+      }
+      
+      var artboardIcon = document.getElementById("artboardIcon");
+      if (artboardIcon) {
+        artboardIcon.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>
